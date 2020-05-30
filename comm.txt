@@ -35,5 +35,5 @@ know the branch - git branch
 add new branch - git branch newbranch
 switch branch - git checkout branchname
 add and swithc at same time - git checkout -b newbranch
-delete branch - git brand -d branchname
+delete branch - git branch -d branchname
 merging to master from other branch - git merge other_branchname
