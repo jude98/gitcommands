@@ -1,0 +1,39 @@
+add repo:
+git init
+
+clone:
+git clone add "address"
+
+know status:
+git status
+
+add to repo
+git add . / files
+git commit -m ""
+git push
+
+unstage:
+git rm --cached filenm
+
+undo commit:
+git reset --soft HEAD~
+
+know the commits:
+git log
+
+know the difference b/w files:
+git diff filenm
+
+remove all the changes made to the file:
+git checkout filenm
+
+untrack files:
+echo "*.jpg" > .gitignore
+
+branching:
+know the branch - git branch
+add new branch - git branch newbranch
+switch branch - git checkout branchname
+add and swithc at same time - git checkout -b update newbranch
+delete branch - git brand -d branchname
+merging to master from other branch - git merge other_branchname
