@@ -10,7 +10,6 @@ git status
 add to repo
 git add . / files
 git commit -m ""
-git push
 
 unstage:
 git rm --cached filenm
@@ -37,3 +36,8 @@ switch branch - git checkout branchname
 add and swithc at same time - git checkout -b newbranch
 delete branch - git branch -d branchname
 merging to master from other branch - git merge otherbranchname
+
+github:
+know your remote repo : git remote
+add remote repo to your local git : git remote add orgin "repo url"
+push to remote repo for first time : git push -u orgin master
